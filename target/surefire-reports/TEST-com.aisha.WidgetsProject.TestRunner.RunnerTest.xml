@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="23" failures="1" name="com.aisha.WidgetsProject.TestRunner.RunnerTest" time="1,006.141" errors="7" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\SeleniumPractice\WidgetsProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\SeleniumPractice\WidgetsProject"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ROOHIA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\SeleniumPractice\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6020031032745788767.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_161/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_161/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_161/bin/../jre/lib/amd64;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\GuptaEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DelphiEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\PBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\VBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DotNetHooking;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Roohi Aisha\AppData\Local\Android\Sdk\tools\bin;C:\Users\Roohi Aisha\AppData\Local\Android\Sdk\tools;C:\Users\Roohi Aisha\AppData\Local\Android\Sdk\platform-tools;C:\work\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Roohi Aisha\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Roohi Aisha\AppData\Local\Programs\Python\Python37\;C:\Users\Roohi Aisha\AppData\Local\Microsoft\WindowsApps;C:\Users\Roohi Aisha\AppData\Roaming\npm;C:\Users\Roohi Aisha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Amazon\AWSCLIV2;;C:\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Roohi Aisha"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Roohi Aisha"/>
+    <property name="java.class.path" value="C:\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\SeleniumPractice\WidgetsProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="To verify the functionality of Accordian" name="To verify three accordians are visible #1" time="58.109"/>
+  <testcase classname="To verify the functionality of Accordian" name="To verify three accordians are visible #2" time="12.595"/>
+  <testcase classname="To verify the functionality of Accordian" name="To verify three accordians are visible #3" time="40.238"/>
+  <testcase classname="To verify the functionality of Accordian" name="To verify text of accordians #1" time="88.554">
+    <error message="Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (fb3556edb6f946cff714be3dfe703748)] -&gt; xpath: //p[contains(text(),&apos;Lorem Ipsum is simply dummy&apos;)]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;DESKTOP-9S87ER3&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.eAV6h7}, goog:chromeOptions: {debuggerAddress: localhost:38357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.4:5555/sessio..., se:cdpVersion: 92.0.4515.131, se:vnc: ws://172.18.0.4:5555/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb3556edb6f946cff714be3dfe703748" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (fb3556edb6f946cff714be3dfe703748)] -&gt; xpath: //p[contains(text(),&apos;Lorem Ipsum is simply dummy&apos;)]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;DESKTOP-9S87ER3&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.eAV6h7}, goog:chromeOptions: {debuggerAddress: localhost:38357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.4:5555/sessio..., se:cdpVersion: 92.0.4515.131, se:vnc: ws://172.18.0.4:5555/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb3556edb6f946cff714be3dfe703748
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.aisha.WidgetsProject.Pages.AccordianPage.verifyAccordianText(AccordianPage.java:82)
+	at com.aisha.WidgetsProject.Parallel.AccordianTest.verify_the_text_contains_(AccordianTest.java:40)
+	at ✽.verify the text contains &apos;Lorem Ipsum is simply dummy&apos; text(file:///C:/SeleniumPractice/WidgetsProject/resources/com/aisha/WidgetsProject/Parallel/Accordian.feature:24)
+</error>
+    <system-out>
+@Accordian
+Scenario Outline: To verify text of accordians                                        # resources/com/aisha/WidgetsProject/Parallel/Accordian.feature:27
+  Given user launches url                                                             # com.aisha.WidgetsProject.Parallel.AccordianTest.user_launches_url()
+  And user selects Widgets from list of options                                       # com.aisha.WidgetsProject.Parallel.AccordianTest.user_selects_widgets_from_list_of_options()
+  When Accordian is selected                                                          # com.aisha.WidgetsProject.Parallel.AccordianTest.accordian_is_selected()
+  Then Accordian page should be visible                                               # com.aisha.WidgetsProject.Parallel.AccordianTest.accordian_page_should_be_visible()
+  Given accordian page is loaded                                                      # com.aisha.WidgetsProject.Parallel.AccordianTest.accordian_page_is_loaded()
+  When question &apos;What is Lorem Ipsum?&apos; number 1 &apos;firstAccordian&apos; accordian is clicked # com.aisha.WidgetsProject.Parallel.AccordianTest._accordian_is_clicked(java.lang.String,int,java.lang.String)
+  Then verify the text contains &apos;Lorem Ipsum is simply dummy&apos; text                    # com.aisha.WidgetsProject.Parallel.AccordianTest.verify_the_text_contains_(java.lang.String)
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (fb3556edb6f946cff714be3dfe703748)] -&gt; xpath: //p[contains(text(),&apos;Lorem Ipsum is simply dummy&apos;)]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;DESKTOP-9S87ER3&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.eAV6h7}, goog:chromeOptions: {debuggerAddress: localhost:38357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.4:5555/sessio..., se:cdpVersion: 92.0.4515.131, se:vnc: ws://172.18.0.4:5555/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb3556edb6f946cff714be3dfe703748
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.aisha.WidgetsProject.Pages.AccordianPage.verifyAccordianText(AccordianPage.java:82)
+	at com.aisha.WidgetsProject.Parallel.AccordianTest.verify_the_text_contains_(AccordianTest.java:40)
+	at âœ½.verify the text contains &apos;Lorem Ipsum is simply dummy&apos; text(file:///C:/SeleniumPractice/WidgetsProject/resources/com/aisha/WidgetsProject/Parallel/Accordian.feature:24)
+
+
+    Embedding To_verify_text_of_accordians [image/png 244375 bytes]
+
+</system-out>
+    <system-err>Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 42752
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 11:57:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 10, 2021 11:57:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 91
+Aug 10, 2021 11:57:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 91
+Aug 10, 2021 11:57:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="To verify the functionality of Accordian" name="To verify text of accordians #2" time="36.641"/>
+  <testcase classname="To verify the functionality of Accordian" name="To verify text of accordians #3" time="15.012"/>
+  <testcase classname="To verify the functionality of AutoComplete in ToolsDemoQA" name="To verify multiple text box accepts multiple colours" time="19.82"/>
+  <testcase classname="To verify the functionality of AutoComplete in ToolsDemoQA" name="To verify in multiple text box whether colours gets deleted upon clicking delete" time="68.725">
+    <error message="Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;DESKTOP-9S87ER3&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;DESKTOP-9S87ER3&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:65)
+	at com.aisha.WidgetsProject.Factory.DriverFactory.init_driver(DriverFactory.java:32)
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.launchBrowser(ApplicationHooks.java:39)
+</error>
+    <system-out>
+@AutoComplete
+Scenario: To verify in multiple text box whether colours gets deleted upon clicking delete # resources/com/aisha/WidgetsProject/Parallel/AutoComplete.feature:26
+      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;DESKTOP-9S87ER3&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:65)
+	at com.aisha.WidgetsProject.Factory.DriverFactory.init_driver(DriverFactory.java:32)
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.launchBrowser(ApplicationHooks.java:39)
+
+  Given user launches url for autocomplete test                                            # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.user_launches_url_for_autoComplete()
+  And user selects Widgets from list of options for autocomplete test                      # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.user_selects_widgets_from_list_of_options()
+  When AutoComplete is selected                                                            # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.autocomplete_is_selected()
+  Then AutoComplete page should be visible                                                 # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.autocomplete_page_should_be_visible()
+  Given text box is selected                                                               # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.text_box_is_selected(io.cucumber.datatable.DataTable)
+  When colour value is typed                                                               # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.colour_value_is_typed(io.cucumber.datatable.DataTable)
+  And colors are deleted                                                                   # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.colors_are_deleted()
+  Then verify the text box is empty                                                        # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.verify_the_text_box_is_empty()
+      java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.takeScreenshot(ApplicationHooks.java:55)
+
+      java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.quitBrowser(ApplicationHooks.java:45)
+
+</system-out>
+    <system-err>Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 42438
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+  <testcase classname="To verify the functionality of AutoComplete in ToolsDemoQA" name="To verify in multiple text box whether colours gets deleted upon clicking delete" time="68.725">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.takeScreenshot(ApplicationHooks.java:55)
+</error>
+  </testcase>
+  <testcase classname="To verify the functionality of AutoComplete in ToolsDemoQA" name="To verify in multiple text box whether colours gets deleted upon clicking delete" time="68.726">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.quitBrowser(ApplicationHooks.java:45)
+</error>
+  </testcase>
+  <testcase classname="To verify the functionality of AutoComplete in ToolsDemoQA" name="To verify in multiple text box whether colour gets deleted upon clicking delete" time="64.101">
+    <error message="Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;DESKTOP-9S87ER3&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;DESKTOP-9S87ER3&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:65)
+	at com.aisha.WidgetsProject.Factory.DriverFactory.init_driver(DriverFactory.java:32)
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.launchBrowser(ApplicationHooks.java:39)
+</error>
+    <system-out>
+@AutoComplete
+Scenario: To verify in multiple text box whether colour gets deleted upon clicking delete # resources/com/aisha/WidgetsProject/Parallel/AutoComplete.feature:38
+      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
+System info: host: &apos;DESKTOP-9S87ER3&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:65)
+	at com.aisha.WidgetsProject.Factory.DriverFactory.init_driver(DriverFactory.java:32)
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.launchBrowser(ApplicationHooks.java:39)
+
+  Given user launches url for autocomplete test                                           # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.user_launches_url_for_autoComplete()
+  And user selects Widgets from list of options for autocomplete test                     # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.user_selects_widgets_from_list_of_options()
+  When AutoComplete is selected                                                           # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.autocomplete_is_selected()
+  Then AutoComplete page should be visible                                                # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.autocomplete_page_should_be_visible()
+  Given text box is selected                                                              # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.text_box_is_selected(io.cucumber.datatable.DataTable)
+  When colour value is typed                                                              # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.colour_value_is_typed(io.cucumber.datatable.DataTable)
+  And colors are deleted                                                                  # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.colors_are_deleted()
+  Then verify the text box is empty                                                       # com.aisha.WidgetsProject.Parallel.AutoCompleteTest.verify_the_text_box_is_empty()
+      java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.takeScreenshot(ApplicationHooks.java:55)
+
+      java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.quitBrowser(ApplicationHooks.java:45)
+
+</system-out>
+    <system-err>Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 16997
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</system-err>
+  </testcase>
+  <testcase classname="To verify the functionality of AutoComplete in ToolsDemoQA" name="To verify in multiple text box whether colour gets deleted upon clicking delete" time="64.102">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.takeScreenshot(ApplicationHooks.java:55)
+</error>
+  </testcase>
+  <testcase classname="To verify the functionality of AutoComplete in ToolsDemoQA" name="To verify in multiple text box whether colour gets deleted upon clicking delete" time="64.102">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.quitBrowser(ApplicationHooks.java:45)
+</error>
+  </testcase>
+  <testcase classname="To verify the functionality of AutoComplete in ToolsDemoQA" name="To verify in multiple text box whether colours gets deleted with common delete" time="38.07"/>
+  <testcase classname="To verify the functionality of AutoComplete in ToolsDemoQA" name="To verify in single text box whether colour gets autocomplete on typing" time="15.728"/>
+  <testcase classname="To verify the functionality of AutoComplete in ToolsDemoQA" name="To verify in single text box does not accept more than one colour" time="65.893"/>
+  <testcase classname="To verify functionality of date pickers" name="To verify todays date is present in calendar" time="19.407">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.aisha.WidgetsProject.Parallel.DatePickerTest.todays_date_is_present(DatePickerTest.java:52)
+	at ✽.todays date is present(file:///C:/SeleniumPractice/WidgetsProject/resources/com/aisha/WidgetsProject/Parallel/DatePicker.feature:13)
+</failure>
+    <system-out>
+@DatePicker
+Scenario: To verify todays date is present in calendar               # resources/com/aisha/WidgetsProject/Parallel/DatePicker.feature:11
+  Given user launches url for Date picker test                       # com.aisha.WidgetsProject.Parallel.DatePickerTest.user_launches_url_for_date_picker_test()
+  And user selects Widgets from list of options for date picker test # com.aisha.WidgetsProject.Parallel.DatePickerTest.user_selects_widgets_from_list_of_options_for_date_picker_test()
+  When Date picker is selected                                       # com.aisha.WidgetsProject.Parallel.DatePickerTest.date_picker_is_selected()
+  Then Date picker should load properly                              # com.aisha.WidgetsProject.Parallel.DatePickerTest.date_picker_should_load_properly()
+  Given Date text box is selected                                    # com.aisha.WidgetsProject.Parallel.DatePickerTest.Date_text_box_is_selected()
+08/11/2021
+  Then todays date is present                                        # com.aisha.WidgetsProject.Parallel.DatePickerTest.todays_date_is_present()
+      java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.aisha.WidgetsProject.Parallel.DatePickerTest.todays_date_is_present(DatePickerTest.java:52)
+	at âœ½.todays date is present(file:///C:/SeleniumPractice/WidgetsProject/resources/com/aisha/WidgetsProject/Parallel/DatePicker.feature:13)
+
+
+    Embedding To_verify_todays_date_is_present_in_calendar [image/png 221924 bytes]
+
+</system-out>
+    <system-err>Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 45759
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 11, 2021 12:03:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 11, 2021 12:03:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 92, so returning the closest version found: 91
+Aug 11, 2021 12:03:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 92 of 91
+Aug 11, 2021 12:03:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="To verify functionality of date pickers" name="To verify todays date is highlighted in calendar" time="39.053"/>
+  <testcase classname="To verify functionality of date pickers" name="To verify all months are selected are visible in the date picker" time="26.738"/>
+  <testcase classname="To verify functionality of date pickers" name="To verify year selected is visible in date picker" time="84.669"/>
+  <testcase classname="To verify functionality of date pickers" name="To verify a particular date gets selected" time="17.981"/>
+  <testcase classname="To verify functionality of date pickers" name="To verify the forward button are clickable" time="14.525"/>
+  <testcase classname="To verify functionality of date pickers" name="To verify the backward button are clickable" time="14.627"/>
+</testsuite>

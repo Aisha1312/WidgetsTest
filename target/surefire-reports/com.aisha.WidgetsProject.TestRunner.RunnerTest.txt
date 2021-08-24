@@ -1,0 +1,83 @@
+-------------------------------------------------------------------------------
+Test set: com.aisha.WidgetsProject.TestRunner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 1, Errors: 7, Skipped: 0, Time elapsed: 751.466 sec <<< FAILURE!
+To verify text of accordians #1(To verify the functionality of Accordian)  Time elapsed: 88.554 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (fb3556edb6f946cff714be3dfe703748)] -> xpath: //p[contains(text(),'Lorem Ipsum is simply dummy')]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'DESKTOP-9S87ER3', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.eAV6h7}, goog:chromeOptions: {debuggerAddress: localhost:38357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.18.0.4:5555/sessio..., se:cdpVersion: 92.0.4515.131, se:vnc: ws://172.18.0.4:5555/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb3556edb6f946cff714be3dfe703748
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.aisha.WidgetsProject.Pages.AccordianPage.verifyAccordianText(AccordianPage.java:82)
+	at com.aisha.WidgetsProject.Parallel.AccordianTest.verify_the_text_contains_(AccordianTest.java:40)
+	at ?.verify the text contains 'Lorem Ipsum is simply dummy' text(file:///C:/SeleniumPractice/WidgetsProject/resources/com/aisha/WidgetsProject/Parallel/Accordian.feature:24)
+
+To verify in multiple text box whether colours gets deleted upon clicking delete(To verify the functionality of AutoComplete in ToolsDemoQA)  Time elapsed: 68.725 sec  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'DESKTOP-9S87ER3', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:165)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:65)
+	at com.aisha.WidgetsProject.Factory.DriverFactory.init_driver(DriverFactory.java:32)
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.launchBrowser(ApplicationHooks.java:39)
+
+To verify in multiple text box whether colours gets deleted upon clicking delete(To verify the functionality of AutoComplete in ToolsDemoQA)  Time elapsed: 68.725 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.takeScreenshot(ApplicationHooks.java:55)
+
+To verify in multiple text box whether colours gets deleted upon clicking delete(To verify the functionality of AutoComplete in ToolsDemoQA)  Time elapsed: 68.726 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.quitBrowser(ApplicationHooks.java:45)
+
+To verify in multiple text box whether colour gets deleted upon clicking delete(To verify the functionality of AutoComplete in ToolsDemoQA)  Time elapsed: 64.101 sec  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'DESKTOP-9S87ER3', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:165)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:65)
+	at com.aisha.WidgetsProject.Factory.DriverFactory.init_driver(DriverFactory.java:32)
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.launchBrowser(ApplicationHooks.java:39)
+
+To verify in multiple text box whether colour gets deleted upon clicking delete(To verify the functionality of AutoComplete in ToolsDemoQA)  Time elapsed: 64.102 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.takeScreenshot(ApplicationHooks.java:55)
+
+To verify in multiple text box whether colour gets deleted upon clicking delete(To verify the functionality of AutoComplete in ToolsDemoQA)  Time elapsed: 64.102 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.aisha.WidgetsProject.Parallel.ApplicationHooks.quitBrowser(ApplicationHooks.java:45)
+
+To verify todays date is present in calendar(To verify functionality of date pickers)  Time elapsed: 19.407 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.aisha.WidgetsProject.Parallel.DatePickerTest.todays_date_is_present(DatePickerTest.java:52)
+	at ?.todays date is present(file:///C:/SeleniumPractice/WidgetsProject/resources/com/aisha/WidgetsProject/Parallel/DatePicker.feature:13)
+

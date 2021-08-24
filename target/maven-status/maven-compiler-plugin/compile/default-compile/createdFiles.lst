@@ -1,0 +1,5 @@
+com\aisha\WidgetsProject\Pages\AccordianPage.class
+com\aisha\WidgetsProject\Factory\DriverFactory.class
+com\aisha\WidgetsProject\Pages\AutoCompletePage.class
+com\aisha\WidgetsProject\Util\ConfigReader.class
+com\aisha\WidgetsProject\Pages\DatePickerPage.class
